@@ -1,0 +1,36 @@
+<div id = "contentDiv">
+    <img src = "assets/poza5.png" alt = "baker boi" id = "bakerPhoto">
+    <img src = "assets/blondeHair.png" alt = "baker boi2" id = "blondeHairPhoto" *ngIf = "displayBlondeHair">
+    <img src = "assets/redApron.png" alt = "baker boi2" id = "redApronPhoto" *ngIf = "displayRedApron">
+    <div id = "card1" class = "card" >
+        <h1 class = "topTitle">Hair color</h1>
+        <p class = "topParagraph">
+            I'm a simple paragraph. Click the button to change the hair color!</p>
+        <button class = "topButton" (click) = "changeHairColor()">
+            Change hair color</button>
+    </div>
+    <div id = "card2" class = "card">
+        <h1 class = "topTitle">Apron</h1>
+        <p class = "topParagraph">
+            I'm a simple paragraph. Click the button to change the apron's color!</p>
+        <button class = "topButton" (click)="changeApronColor()">Change apron color!</button>
+    </div>
+    <div id = "card3" class = "card">
+        <h1 class = "topTitle">Paragraph</h1>
+        <p class = "topParagraph" *ngIf = "displayParagraph">
+            I'm a simple paragraph. But you can make me disappear!</p>
+        <button class = "topButton" (click) = "toggleParagraphDisplay()">Make it disappear!</button>
+    </div>
+    <div id = "card4" class = "card">
+        <h1 class = "topTitle">*ngFor</h1>
+        <p class = "topParagraph" *ngFor="let elem of myArray" class = "paragraphClass">
+            I got made using *ngFor!</p>
+        <button class = "topButton">I do nothing :( </button>
+    </div>
+    <div id = "card5" class = "card">
+        <h1 class = "topTitle">This is the title</h1>
+        <p class = "topParagraph">
+            I'm a simple paragraph. But check out this button!</p>
+        <button class = "topButton">Neither do I :(</button>
+    </div>
+</div>

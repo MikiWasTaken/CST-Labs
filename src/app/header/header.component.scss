@@ -1,0 +1,65 @@
+.myDiv {
+    padding: 0;
+    margin: 0px;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    top: 0;
+    text-align: center;
+    background-color: rgb(110,42,223);
+    height: 450px;
+  }
+
+#textBox
+{
+    position: relative;
+    left: 100px;
+    top: 70px;
+    opacity: 100%;
+    background-color: rgb(151, 102, 230);
+    height: 250px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+#topTitle
+{
+    text-align: left;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+#topParagraph
+{
+    text-align: left;
+    line-height: 30px;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#topButton {
+    background-color: whitesmoke;
+    border: none;
+    padding: 16px 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(110,42,223);
+    font-size: 16px;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+#topButton:hover {
+    background-color: rgb(110,42,223);
+    color: whitesmoke;
+  }
+
+
+h1, h2 
+{
+    margin: 0;    
+}
